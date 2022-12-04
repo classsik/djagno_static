@@ -1,0 +1,25 @@
+{% load static %}
+    <section class="consultation">
+        <div class="consultation__inner">
+            <div class="consultation__left">
+                <h2 class="consultation__title">Онлайн консультация специалиста
+                    по аудио и видео связи, Бесплатно.
+                </h2>
+                <p class="consultation__text">Укажите вой номер телефона, мы перезвоним и подберем для вас удобное время
+                    для консультации.
+                    Или позвоните нам сами — <a href="">+7 900 333 10 40</a></p>
+                <form action="" class="consultation__form">
+                    <input type="text" class="consultation__form-input" placeholder="Телефон">
+                    <button type="submit" class="consultation__form-button">Записаться на прием</button>
+                </form>
+                <p class="consultation__agree">Записываясь на услугу вы даёте согласие на <a href="">обработку <br>
+                        своих
+                        персональных
+                        данных</a></p>
+            </div>
+            <div class="consultation__right">
+                <img src="{% static 'img/consultation__img.png' %}" alt="" class="consultation__image">
+            </div>
+        </div>
+        <img src="{% static 'img/consultation__bg.png' %}" alt="" class="consultation__bg">
+    </section>
